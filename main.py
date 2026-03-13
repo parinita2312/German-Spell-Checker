@@ -1,7 +1,7 @@
 import sys
 import os
 
-sys.path.append(os.path.dirname(__file__))
+sys.path.append(os.getcwd())
 
 from preprocessing import load_corpus
 from language_model import LanguageModel
