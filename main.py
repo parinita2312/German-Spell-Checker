@@ -1,7 +1,7 @@
 import sys
 import os
 sys.path.append(os.path.dirname(__file__))
-from utils.preprocessing import load_corpus
+from preprocessing import load_corpus
 from models.language_model import LanguageModel
 from models.noisy_channel import SpellChecker
 tokens = load_corpus("data/corpus.txt")
